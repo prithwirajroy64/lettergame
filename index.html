@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <h1>Guess The Latters</h1>
+
+  <div class="display-div">
+    <div class="display dd1">
+      <h2 class="display1"></h2>
+    </div>
+    <div class="display dd2">
+      <h2 class="display2"></h2>
+    </div>
+    <div class="display dd3">
+      <h2 class="display3"></h2>
+    </div>
+  </div>
+
+  <div class="hero">
+    <div onclick="
+    document.querySelector(`.box1`).style.visibility = 'visible';
+            userTurn = document.querySelector(`.box1`).innerHTML;
+            result();">
+      <h3 class="box1">A</h3>
+    </div>
+
+    <div onclick="
+    document.querySelector(`.box2`).style.visibility = 'visible';
+        userTurn = document.querySelector(`.box2`).innerHTML;
+            result()
+        ">
+      <h3 class="box2">B</h3>
+    </div>
+
+    <div onclick="
+    document.querySelector(`.box3`).style.visibility = 'visible';
+        userTurn = document.querySelector(`.box3`).innerHTML;
+            result();
+        ">
+      <h3 class="box3">C</h3>
+    </div>
+
+    <div onclick="
+    document.querySelector(`.box4`).style.visibility = 'visible';
+        userTurn = document.querySelector(`.box4`).innerHTML;
+            result();
+        ">
+      <h3 class="box4">D</h3>
+    </div>
+
+    <div onclick="
+    document.querySelector(`.box5`).style.visibility = 'visible';
+        userTurn = document.querySelector(`.box5`).innerHTML;
+            result();
+        ">
+      <h3 class="box5">E</h3>
+    </div>
+
+    <div onclick="
+    document.querySelector(`.box6`).style.visibility = 'visible';
+        userTurn = document.querySelector(`.box6`).innerHTML;
+            result();
+            ">
+      <h3 class="box6">F</h3>
+    </div>
+
+    <div onclick="
+    document.querySelector(`.box7`).style.visibility = 'visible';
+        userTurn = document.querySelector(`.box7`).innerHTML;
+            result();
+            ">
+      <h3 class="box7">G</h3>
+    </div>
+
+    <div onclick="
+    document.querySelector(`.box8`).style.visibility = 'visible';
+        userTurn = document.querySelector(`.box8`).innerHTML;
+            result();">
+      <h3 class="box8">H</h3>
+    </div>
+
+    <div onclick="
+    document.querySelector(`.box9`).style.visibility = 'visible';
+        userTurn = document.querySelector(`.box9`).innerHTML;
+            result();">
+      <h3 class="box9">I</h3>
+    </div>
+
+    <div onclick="
+    document.querySelector(`.box10`).style.visibility = 'visible';
+        userTurn = document.querySelector(`.box10`).innerHTML;
+            result();">
+      <h3 class="box10">J</h3>
+    </div>
+
+    <div onclick="
+    document.querySelector(`.box11`).style.visibility = 'visible';
+        userTurn = document.querySelector(`.box11`).innerHTML;
+            result();">
+      <h3 class="box11">K</h3>
+    </div>
+
+    <div onclick="
+    document.querySelector(`.box12`).style.visibility = 'visible';
+        userTurn = document.querySelector(`.box12`).innerHTML;
+            result();">
+      <h3 class="box12">L</h3>
+    </div>
+
+    <div onclick="
+    document.querySelector(`.box13`).style.visibility = 'visible';
+        userTurn = document.querySelector(`.box13`).innerHTML;
+            result();">
+      <h3 class="box13">M</h3>
+    </div>
+
+    <div onclick="
+    document.querySelector(`.box14`).style.visibility = 'visible';
+        userTurn = document.querySelector(`.box14`).innerHTML;
+            result();">
+      <h3 class="box14">N</h3>
+    </div>
+
+    <div onclick="
+    document.querySelector(`.box15`).style.visibility = 'visible';
+        userTurn = document.querySelector(`.box15`).innerHTML;
+            result();">
+      <h3 class="box15">O</h3>
+    </div>
+
+    <div onclick="
+    document.querySelector(`.box16`).style.visibility = 'visible';
+        userTurn = document.querySelector(`.box16`).innerHTML;
+            result();">
+      <h3 class="box16">P</h3>
+    </div>
+
+    <div onclick="
+    document.querySelector(`.box17`).style.visibility = 'visible';
+        userTurn = document.querySelector(`.box17`).innerHTML;
+            result();">
+      <h3 class="box17">Q</h3>
+    </div>
+
+    <div onclick="
+    document.querySelector(`.box18`).style.visibility = 'visible';
+        userTurn = document.querySelector(`.box18`).innerHTML;
+            result();">
+      <h3 class="box18">R</h3>
+    </div>
+
+    <div onclick="
+    document.querySelector(`.box19`).style.visibility = 'visible';
+        userTurn = document.querySelector(`.box19`).innerHTML;
+            result();">
+      <h3 class="box19">S</h3>
+    </div>
+
+    <div onclick="
+    document.querySelector(`.box20`).style.visibility = 'visible';
+        userTurn = document.querySelector(`.box20`).innerHTML;
+            result();">
+      <h3 class="box20">T</h3>
+    </div>
+
+    <div onclick="
+    document.querySelector(`.box21`).style.visibility = 'visible';
+        userTurn = document.querySelector(`.box21`).innerHTML;
+            result();">
+      <h3 class="box21">U</h3>
+    </div>
+
+    <div onclick="
+    document.querySelector(`.box22`).style.visibility = 'visible';
+        userTurn = document.querySelector(`.box22`).innerHTML;
+            result();">
+      <h3 class="box22">V</h3>
+    </div>
+
+    <div onclick="
+    document.querySelector(`.box23`).style.visibility = 'visible';
+        userTurn = document.querySelector(`.box23`).innerHTML;
+            result();">
+      <h3 class="box23">W</h3>
+    </div>
+
+    <div onclick="
+    document.querySelector(`.box24`).style.visibility = 'visible';
+        userTurn = document.querySelector(`.box24`).innerHTML;
+            result();">
+      <h3 class="box24">X</h3>
+    </div>
+
+    <div onclick="
+    document.querySelector(`.box25`).style.visibility = 'visible';
+        userTurn = document.querySelector(`.box25`).innerHTML;
+            result();">
+      <h3 class="box25">Y</h3>
+    </div>
+
+    <div onclick="
+        userTurn = document.querySelector(`.box26`).innerHTML;
+        document.querySelector(`.box26`).style.visibility = 'visible';
+            result();">
+      <h3 class="box26">Z</h3>
+    </div>
+
+  </div>
+
+  <h4></h4>
+  <div class="restart-btn">
+    <button onclick="location.reload();">restart</button>
+  </div>
+
+
+<div class="game-over">
+  <div class="hero-main">
+    <div class="top">
+      <h1>Well Done ✅</h1>
+      <p>You succeed to find all 3 latter.</p>
+    </div>
+    <button onclick="location.reload();">restart</button>
+  </div>
+</div>
+
+
+
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
